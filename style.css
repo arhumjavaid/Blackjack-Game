@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #765d1d ;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    background-color: green;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 550px; /* Added max-width for larger screens */
+    padding: 20px; /* Added padding for better spacing */
+    border: 8px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont h1{
+    font-size: 2em; /* Adjusted font size for responsiveness */
+    color: goldenrod;
+}
+
+.cont p{
+    font-size: 1.2em; /* Adjusted font size for responsiveness */
+    color: white;
+    font-weight: bolder;
+}
+
+.cont :nth-child(2){
+    font-style: italic;
+}
+
+button{
+    color: green;
+    width: 50%; /* Adjusted button width for responsiveness */
+    /* max-width: 200px; Added max-width for larger screens */
+    background: goldenrod;
+    padding: 10px; /* Adjusted padding for better spacing */
+    font-weight: bold;
+    font-size: 0.9em; /* Adjusted font size for responsiveness */
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(223, 172, 42);
+}
